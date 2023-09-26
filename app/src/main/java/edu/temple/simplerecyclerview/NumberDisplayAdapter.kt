@@ -27,7 +27,7 @@ class NumberDisplayAdapter (_numbers: Array<Int>) : RecyclerView.Adapter<NumberD
     }
 
     override fun onBindViewHolder(holder: NumberViewHolder, position: Int) {
-        holder.textView.setText(numbers[position])
+        holder.textView.setText(numbers[position].toString())
     }
 
 
